@@ -21,8 +21,36 @@
           &nbsp;&nbsp;&nbsp;&nbsp;then after **Authorised redirect URIs** you set Just Like this **https://developers.google.com/oauthplayground** and copy this link and paste and hit **save**<br/>
 
 **step:6**<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;more details any problem occur go to youtube this video [youtube video](https://youtu.be/JJ44WA_eV8E)<br/>&nbsp;&nbsp;&nbsp;&nbsp; jyare https://developers.google.com/oauthplayground/ ma clientId and client secret nakho tyare pop up avase this app isn't verified ema **Advanced** ma jai **goto gajjar darshit** par click kari ne permisson Alllow karvi 
+          &nbsp;&nbsp;&nbsp;&nbsp;more details any problem occur go to youtube this video [youtube video](https://youtu.be/JJ44WA_eV8E)<br/>&nbsp;&nbsp;&nbsp;&nbsp; jyare https://developers.google.com/oauthplayground/ ma clientId and client secret nakho tyare pop up avase this app isn't verified ema **Advanced** ma jai **goto gajjar darshit** par click kari ne permisson Alllow karvi ;-)
          
 ```javascript
-
+let nodemailer=require('nodemailer');
+let transporter=nodemailer.createTransport({
+host: 'smtp.gmail.com',
+direct:false ,
+port: 465,
+secure: true,
+auth:{
+		user:'darshit.gajjar1998@gmail.com',
+		type: 'OAuth2',
+		clientId: '346380356857-40ufl3fshsquem48698ld626biv2rbna.apps.googleusercontent.com',
+	    clientSecret: "4xfRKPYfjX5QJrAedHdd6oEr",
+	    refreshToken:'1/1xL5LgpZg2RoYMBk6h6GLWEHNBy3YixMX7XUyNLJw2o',
+	}
+});
+let mailOptions={
+                    from:'darshit.gajjar1998@gmail.com',
+                    to:email,
+                    subject: `Hello user you signup`,
+                    html:`<html></html>
+}
+transporter.sendMail(mailOptions,(err,data)=>{
+                              if(err)
+                              {
+                                        console.log("darshit error avi",err);
+                              }
+                              else{
+                                        console.log('email sent');
+                              }
+});	
 ```
