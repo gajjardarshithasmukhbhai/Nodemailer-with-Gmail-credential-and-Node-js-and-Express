@@ -54,3 +54,5 @@ transporter.sendMail(mailOptions,(err,data)=>{
                               }
 });	
 ```
+* **step 7:** Privacy policy 
+&nbsp https://www.freeprivacypolicy.com/privacy/view/7278006192895fff41b101739d14a46c
