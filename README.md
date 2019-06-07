@@ -33,9 +33,9 @@ secure: true,
 auth:{
 		user:'darshit.gajjar1998@gmail.com',
 		type: 'OAuth2',
-		clientId: '346380356857-40ufl3fshsquem48698ld626biv2rbna.apps.googleusercontent.com',
-	    clientSecret: "4xfRKPYfjX5QJrAedHdd6oEr",
-	    refreshToken:'1/1xL5LgpZg2RoYMBk6h6GLWEHNBy3YixMX7XUyNLJw2o',
+		clientId: 'usercontent.com',
+	    clientSecret: "4xfdHdd6oEr",
+	    refreshToken:'1/kkm,mm',
 	}
 });
 let mailOptions={
