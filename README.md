@@ -18,7 +18,7 @@
           
 **step:5(Important part)** <br/>
            &nbsp;&nbsp;&nbsp;&nbsp;you see client Id and checkbox right corner the pen symbol set hit the click<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;then after **Authorised redirect URIs** you set Just Like this **https://developers.google.com/oauthplayground** and copy this link and paste and hit **save**<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;then after **Authorised redirect URIs** you set Just Like this **https://developers.google.com/oauthplayground** and copy this link and paste and hit **save**<br/> and oatuth 2.0 ma redirect **https://mail.google.com/**
 
 **step:6**<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;more details any problem occur go to youtube this video [youtube video](https://youtu.be/JJ44WA_eV8E)<br/>&nbsp;&nbsp;&nbsp;&nbsp; jyare https://developers.google.com/oauthplayground/ ma clientId and client secret nakho tyare pop up avase this app isn't verified ema **Advanced** ma jai **goto gajjar darshit** par click kari ne permisson Alllow karvi ;-)
